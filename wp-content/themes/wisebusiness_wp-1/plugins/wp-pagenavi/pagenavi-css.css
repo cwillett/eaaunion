@@ -1,0 +1,74 @@
+/*
++----------------------------------------------------------------+
+|																							|
+|	WordPress 2.8 Plugin: WP-PageNavi 2.50									|
+|	Copyright (c) 2009 Lester "GaMerZ" Chan									|
+|																							|
+|	File Written By:																	|
+|	- Lester "GaMerZ" Chan															|
+|	- http://lesterchan.net															|
+|																							|
+|	File Information:																	|
+|	- Page Navigation CSS Style													|
+|	- wp-content/plugins/wp-pagenavi/pagenavi-css.css					|
+|																							|
++----------------------------------------------------------------+
+*/
+
+
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:visited {
+	padding: 3px 10px;
+	display:block;
+	float:left;
+	text-align:center; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #DDD;
+	color: #333;
+	background:url(../../themes/wisebusiness/images/bk_pagenavi.jpg) 0 0 repeat-x;	
+}
+
+.wp-pagenavi a:hover {	
+	background:url(../../themes/wisebusiness/images/bk_pagenavi_ov.jpg) 0 0 no-repeat;
+	color: #FFF;
+	border:none;
+	padding: 4px 11px;
+}
+.wp-pagenavi a:active {
+	padding: 3px 10px;
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #DDD;
+	color: #0066cc;
+	background:url(../../themes/wisebusiness/images/bk_pagenavi.jpg) 0 0 repeat-x;		
+	display:block;
+	float:left;
+}
+.wp-pagenavi span.pages {
+	padding: 3px 11px;
+	margin: 2px;
+	color: #333;
+	border: 1px solid #DDD;
+	background:url(../../themes/wisebusiness/images/bk_pagenavi.jpg) 0 0 repeat-x;	
+	display:block;
+	float:left;
+}
+.wp-pagenavi span.current {
+	padding: 4px 11px;
+	margin: 2px;
+	font-weight: bold;
+	border:none;
+	color: #FFF;
+	background:url(../../themes/wisebusiness/images/bk_pagenavi_ov.jpg) 0 0 no-repeat;	
+	display:block;
+	float:left;
+}
+.wp-pagenavi span.extend {
+	padding: 3px 11px;
+	margin: 2px;	
+	border: 1px solid #ddd;
+	color: #333;
+	background:url(../../themes/wisebusiness/images/bk_pagenavi.jpg) 0 0 repeat-x;	
+	display:block;
+	float:left;
+}

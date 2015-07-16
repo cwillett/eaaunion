@@ -1,0 +1,227 @@
+[12-May-2011 02:58:29] PHP Warning:  fopen(/home1/skyyfish/public_html/directradiostation/eaa/wp-content/themes/wisebusiness_wp/style.css) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home1/skyyfish/public_html/directradiostation/eaa/wp-includes/functions.php on line 4284
+[12-May-2011 02:58:29] PHP Warning:  fread(): supplied argument is not a valid stream resource in /home1/skyyfish/public_html/directradiostation/eaa/wp-includes/functions.php on line 4287
+[12-May-2011 02:58:29] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home1/skyyfish/public_html/directradiostation/eaa/wp-includes/functions.php on line 4290
+[12-May-2011 02:59:22] PHP Warning:  fopen(/home1/skyyfish/public_html/directradiostation/eaa/wp-content/themes/wisebusiness_wp-1/style.css) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home1/skyyfish/public_html/directradiostation/eaa/wp-includes/functions.php on line 4284
+[12-May-2011 02:59:22] PHP Warning:  fread(): supplied argument is not a valid stream resource in /home1/skyyfish/public_html/directradiostation/eaa/wp-includes/functions.php on line 4287
+[12-May-2011 02:59:22] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home1/skyyfish/public_html/directradiostation/eaa/wp-includes/functions.php on line 4290
+[13-May-2011 06:28:35] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_forms' doesn't exist for query SELECT * FROM wp_formbuilder_forms ORDER BY `name` ASC made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:28:35] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE `post_id` = '104'; made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:29:37] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '105'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, wp_save_post_revision, _wp_put_post_revision, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:29:37] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, wp_save_post_revision, _wp_put_post_revision, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:29:38] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '104'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:29:38] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:29:38] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '104'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:29:38] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:29:39] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_forms' doesn't exist for query SELECT * FROM wp_formbuilder_forms ORDER BY `name` ASC made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:29:39] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE `post_id` = '104'; made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:29:44] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_forms' doesn't exist for query SELECT * FROM wp_formbuilder_forms ORDER BY `name` ASC made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:29:44] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE `post_id` = '106'; made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:30:29] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '107'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, wp_save_post_revision, _wp_put_post_revision, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:29] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, wp_save_post_revision, _wp_put_post_revision, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:29] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '106'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:29] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:29] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '106'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:29] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:30] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_forms' doesn't exist for query SELECT * FROM wp_formbuilder_forms ORDER BY `name` ASC made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:30:30] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE `post_id` = '106'; made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:30:35] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_forms' doesn't exist for query SELECT * FROM wp_formbuilder_forms ORDER BY `name` ASC made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:30:35] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE `post_id` = '108'; made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:30:55] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '109'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, wp_save_post_revision, _wp_put_post_revision, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:55] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, wp_save_post_revision, _wp_put_post_revision, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:55] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '108'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:55] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:57] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '108'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:30:57] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:31:02] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_forms' doesn't exist for query SELECT * FROM wp_formbuilder_forms ORDER BY `name` ASC made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:31:02] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE `post_id` = '108'; made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:31:10] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_forms' doesn't exist for query SELECT * FROM wp_formbuilder_forms ORDER BY `name` ASC made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:31:10] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE `post_id` = '110'; made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:31:49] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '111'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, wp_save_post_revision, _wp_put_post_revision, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:31:49] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, wp_save_post_revision, _wp_put_post_revision, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:31:49] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '110'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:31:49] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:31:49] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE post_id = '110'; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:31:49] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query DELETE FROM wp_formbuilder_pages WHERE id = '' LIMIT 1; made by edit_post, wp_update_post, wp_insert_post, do_action, call_user_func_array, formbuilder_save_options
+[13-May-2011 06:31:49] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_forms' doesn't exist for query SELECT * FROM wp_formbuilder_forms ORDER BY `name` ASC made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[13-May-2011 06:31:49] WordPress database error Table 'skyyfish_wrd6.wp_formbuilder_pages' doesn't exist for query SELECT * FROM wp_formbuilder_pages WHERE `post_id` = '110'; made by include, do_meta_boxes, call_user_func, formbuilder_post_options
+[14-May-2011 23:13:26] PHP Warning:  fopen(/home1/skyyfish/public_html/directradiostation/eaa/wp-content/themes/fortitude-professional-blog-theme/style.css) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home1/skyyfish/public_html/directradiostation/eaa/wp-includes/functions.php on line 4284
+[14-May-2011 23:13:26] PHP Warning:  fread(): supplied argument is not a valid stream resource in /home1/skyyfish/public_html/directradiostation/eaa/wp-includes/functions.php on line 4287
+[14-May-2011 23:13:26] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home1/skyyfish/public_html/directradiostation/eaa/wp-includes/functions.php on line 4290
+[17-May-2011 03:10:28] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2772 bytes) in /home1/skyyfish/public_html/directradiostation/eaa/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 940
+[17-May-2011 03:10:30] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 4404 bytes) in /home1/skyyfish/public_html/directradiostation/eaa/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 940
+[17-May-2011 03:10:32] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2724 bytes) in /home1/skyyfish/public_html/directradiostation/eaa/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 940
+[17-May-2011 04:11:38] PHP Fatal error:  Call to a member function register_tinymce_plugin() on a non-object in /home1/skyyfish/public_html/directradiostation/eaa/wp-content/plugins/wp-super-edit/wp-se-cssclasses.php on line 46
+[17-May-2011 04:11:44] PHP Fatal error:  Call to a member function register_tinymce_plugin() on a non-object in /home1/skyyfish/public_html/directradiostation/eaa/wp-content/plugins/wp-super-edit/wp-se-cssclasses.php on line 46
+[17-May-2011 04:11:47] PHP Fatal error:  Call to a member function register_tinymce_plugin() on a non-object in /home1/skyyfish/public_html/directradiostation/eaa/wp-content/plugins/wp-super-edit/wp-se-cssclasses.php on line 46
+[27-May-2011 07:24:27] PHP Fatal error:  Cannot redeclare wpbook_safe_publish_to_facebook() (previously declared in /home1/skyyfish/public_html/directradiostation/eaa/wp-content/plugins/wpbook/includes/publish_to_facebook.php:6) in /home1/skyyfish/public_html/directradiostation/eaa/wp-content/plugins/wpbook/includes/publish_to_facebook.php on line 403
+[11-Jun-2011 09:37:43] PHP Fatal error:  Call to undefined function curl_init() in /home/eaatest/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[11-Jun-2011 09:55:26] PHP Fatal error:  Call to undefined function curl_init() in /home/eaatest/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[11-Jun-2011 10:51:39] PHP Fatal error:  Call to undefined function curl_init() in /home/eaatest/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[11-Jun-2011 11:03:34] PHP Fatal error:  Call to undefined function curl_init() in /home/eaatest/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[11-Jun-2011 11:13:34] PHP Fatal error:  Call to undefined function curl_init() in /home/eaatest/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 13:33:42] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 13:53:54] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 14:14:15] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 14:44:43] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 14:54:43] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 15:04:43] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 15:14:43] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 15:24:43] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 15:34:43] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 15:44:43] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 16:48:36] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 23:52:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php:4
+Stack trace:
+#0 /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/publish_to_facebook.php(10): include_once()
+#1 /home/eaaorg/public_html/wp-content/plugins/wpbook/wpbook.php(1036): wpbook_safe_publish_to_facebook(Object(stdClass))
+#2 [internal function]: wpbook_publish_to_facebook(Object(stdClass))
+#3 /home/eaaorg/public_html/wp-includes/plugin.php(395): call_user_func_array('wpbook_publish_...', Array)
+#4 /home/eaaorg/public_html/wp-includes/post.php(2963): do_action('draft_to_publis...', Object(stdClass))
+#5 /home/eaaorg/public_html/wp-includes/post.php(2626): wp_transition_post_status('publish', 'draft', Object(stdClass))
+#6 /home/eaaorg/public_html/wp-includes/post.php(2689): wp_insert_post(Array)
+#7 /home/eaaorg/public_html/wp-admin/includes/post.php(225): wp_update_post(Array)
+#8 /home/eaaorg/public_html/wp-admin/post.php(207 in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php on line 4
+[13-Jun-2011 16:59:14] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[14-Jun-2011 00:05:53] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php:4
+Stack trace:
+#0 /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/publish_to_facebook.php(10): include_once()
+#1 /home/eaaorg/public_html/wp-content/plugins/wpbook/wpbook.php(1036): wpbook_safe_publish_to_facebook(Object(stdClass))
+#2 [internal function]: wpbook_publish_to_facebook(Object(stdClass))
+#3 /home/eaaorg/public_html/wp-includes/plugin.php(395): call_user_func_array('wpbook_publish_...', Array)
+#4 /home/eaaorg/public_html/wp-includes/post.php(2963): do_action('draft_to_publis...', Object(stdClass))
+#5 /home/eaaorg/public_html/wp-includes/post.php(2626): wp_transition_post_status('publish', 'draft', Object(stdClass))
+#6 /home/eaaorg/public_html/wp-includes/post.php(2689): wp_insert_post(Array)
+#7 /home/eaaorg/public_html/wp-admin/includes/post.php(225): wp_update_post(Array)
+#8 /home/eaaorg/public_html/wp-admin/post.php(207 in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php on line 4
+[13-Jun-2011 17:09:37] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 17:20:01] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 17:30:07] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[14-Jun-2011 00:33:56] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php:4
+Stack trace:
+#0 /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/publish_to_facebook.php(10): include_once()
+#1 /home/eaaorg/public_html/wp-content/plugins/wpbook/wpbook.php(1036): wpbook_safe_publish_to_facebook(Object(stdClass))
+#2 [internal function]: wpbook_publish_to_facebook(Object(stdClass))
+#3 /home/eaaorg/public_html/wp-includes/plugin.php(395): call_user_func_array('wpbook_publish_...', Array)
+#4 /home/eaaorg/public_html/wp-includes/post.php(2963): do_action('draft_to_publis...', Object(stdClass))
+#5 /home/eaaorg/public_html/wp-includes/post.php(2626): wp_transition_post_status('publish', 'draft', Object(stdClass))
+#6 /home/eaaorg/public_html/wp-includes/post.php(2689): wp_insert_post(Array)
+#7 /home/eaaorg/public_html/wp-admin/includes/post.php(225): wp_update_post(Array)
+#8 /home/eaaorg/public_html/wp-admin/post.php(207 in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php on line 4
+[13-Jun-2011 17:40:46] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 18:01:21] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 18:11:54] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 18:32:54] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[14-Jun-2011 01:38:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php:4
+Stack trace:
+#0 /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/publish_to_facebook.php(10): include_once()
+#1 /home/eaaorg/public_html/wp-content/plugins/wpbook/wpbook.php(1036): wpbook_safe_publish_to_facebook(Object(stdClass))
+#2 [internal function]: wpbook_publish_to_facebook(Object(stdClass))
+#3 /home/eaaorg/public_html/wp-includes/plugin.php(395): call_user_func_array('wpbook_publish_...', Array)
+#4 /home/eaaorg/public_html/wp-includes/post.php(2963): do_action('draft_to_publis...', Object(stdClass))
+#5 /home/eaaorg/public_html/wp-includes/post.php(2626): wp_transition_post_status('publish', 'draft', Object(stdClass))
+#6 /home/eaaorg/public_html/wp-includes/post.php(2689): wp_insert_post(Array)
+#7 /home/eaaorg/public_html/wp-admin/includes/post.php(225): wp_update_post(Array)
+#8 /home/eaaorg/public_html/wp-admin/post.php(207 in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php on line 4
+[13-Jun-2011 18:38:24] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 18:38:28] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 18:39:44] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 18:40:26] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 18:40:42] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 18:41:18] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 18:42:04] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 20:47:05] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 20:53:49] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 20:53:56] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 20:54:14] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 20:57:05] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 20:57:13] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 20:58:22] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 20:58:26] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 21:00:05] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 21:10:03] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[13-Jun-2011 21:40:18] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[14-Jun-2011 15:24:48] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[14-Jun-2011 22:24:56] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[14-Jun-2011 15:25:03] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[14-Jun-2011 22:26:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php:4
+Stack trace:
+#0 /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/publish_to_facebook.php(10): include_once()
+#1 /home/eaaorg/public_html/wp-content/plugins/wpbook/wpbook.php(1036): wpbook_safe_publish_to_facebook(Object(stdClass))
+#2 [internal function]: wpbook_publish_to_facebook(Object(stdClass))
+#3 /home/eaaorg/public_html/wp-includes/plugin.php(395): call_user_func_array('wpbook_publish_...', Array)
+#4 /home/eaaorg/public_html/wp-includes/post.php(2963): do_action('draft_to_publis...', Object(stdClass))
+#5 /home/eaaorg/public_html/wp-includes/post.php(2626): wp_transition_post_status('publish', 'draft', Object(stdClass))
+#6 /home/eaaorg/public_html/wp-includes/post.php(2689): wp_insert_post(Array)
+#7 /home/eaaorg/public_html/wp-admin/includes/post.php(225): wp_update_post(Array)
+#8 /home/eaaorg/public_html/wp-admin/post.php(207 in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php on line 4
+[14-Jun-2011 15:35:06] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[14-Jun-2011 15:55:11] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[14-Jun-2011 16:05:11] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[15-Jun-2011 11:46:33] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[15-Jun-2011 11:50:17] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[15-Jun-2011 11:50:30] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[15-Jun-2011 11:55:52] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[15-Jun-2011 11:59:19] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/twitter-tools/twitteroauth.php on line 201
+[15-Jun-2011 19:20:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php:4
+Stack trace:
+#0 /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/publish_to_facebook.php(10): include_once()
+#1 /home/eaaorg/public_html/wp-content/plugins/wpbook/wpbook.php(1036): wpbook_safe_publish_to_facebook(Object(stdClass))
+#2 [internal function]: wpbook_publish_to_facebook(Object(stdClass))
+#3 /home/eaaorg/public_html/wp-includes/plugin.php(395): call_user_func_array('wpbook_publish_...', Array)
+#4 /home/eaaorg/public_html/wp-includes/post.php(2963): do_action('draft_to_publis...', Object(stdClass))
+#5 /home/eaaorg/public_html/wp-includes/post.php(2626): wp_transition_post_status('publish', 'draft', Object(stdClass))
+#6 /home/eaaorg/public_html/wp-includes/post.php(2689): wp_insert_post(Array)
+#7 /home/eaaorg/public_html/wp-admin/includes/post.php(225): wp_update_post(Array)
+#8 /home/eaaorg/public_html/wp-admin/post.php(207 in /home/eaaorg/public_html/wp-content/plugins/wpbook/includes/client/facebook.php on line 4
+[15-Jun-2011 19:21:26] PHP Fatal error:  Call to undefined function curl_init() in /home/eaaorg/public_html/wp-content/plugins/tweet-this/lib/twitteroauth.php on line 201
+[22-Jun-2011 15:56:17] PHP Warning:  Invalid argument supplied for foreach() in /home/eaaorg/public_html/wp-content/plugins/register-plus/register-plus.php on line 470
+[27-Jun-2011 18:55:37] WordPress database error Table 'eaaorg_eaa.wp_wpsqt_quiz' doesn't exist for query SELECT * FROM `wp_wpsqt_quiz` made by do_action, call_user_func_array, Wpsqt_Admin->show_page, Wpsqt_Page_Maintenance_Upgrade->process, Wpsqt_Upgrade->execute, Wpsqt_Upgrade_1322->execute
+[27-Jun-2011 18:55:37] WordPress database error Table 'eaaorg_eaa.wp_wpsqt_survey' doesn't exist for query SELECT * FROM `wp_wpsqt_survey` made by do_action, call_user_func_array, Wpsqt_Admin->show_page, Wpsqt_Page_Maintenance_Upgrade->process, Wpsqt_Upgrade->execute, Wpsqt_Upgrade_1322->execute
+[27-Jun-2011 18:55:37] WordPress database error Duplicate column name 'score' for query ALTER TABLE  `wp_wpsqt_all_results` ADD  `score` INT NULL , ADD  `total` INT  NULL , ADD  `percentage` INT NULL made by do_action, call_user_func_array, Wpsqt_Admin->show_page, Wpsqt_Page_Maintenance_Upgrade->process, Wpsqt_Upgrade->execute
+[03-Jul-2011 17:00:43] PHP Fatal error:  Cannot use object of type stdClass as array in /home/eaaorg/public_html/wp-content/plugins/easysms/post_publish.php on line 8
+[06-Jul-2011 19:20:30] PHP Fatal error:  Cannot use object of type stdClass as array in /home/eaaorg/public_html/wp-content/plugins/easysms/post_publish.php on line 8
+[07-Jul-2011 19:45:20] PHP Fatal error:  Cannot use object of type stdClass as array in /home/eaaorg/public_html/wp-content/plugins/easysms/post_publish.php on line 8
+[14-Jul-2011 23:14:51] PHP Parse error:  syntax error, unexpected ',' in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery-sidebar-widget/ngg-sidebar-widget.php on line 219
+[14-Jul-2011 23:14:53] PHP Parse error:  syntax error, unexpected ',' in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery-sidebar-widget/ngg-sidebar-widget.php on line 219
+[14-Jul-2011 23:14:53] PHP Parse error:  syntax error, unexpected ',' in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery-sidebar-widget/ngg-sidebar-widget.php on line 219
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'ngg_init_check' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, nggLoader->start_plugin, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'feedid' LIMIT 1 made by require_once, require_once, require_once, require_once, include, include, include, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, require_once, require_once, require_once, WP->init, wp_get_current_user, get_currentuserinfo, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'jetpack_id' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, Jetpack->init, Jetpack->plugin_upgrade, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, check_theme_switched, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, auth_redirect, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'ngg_init_check' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, nggLoader->start_plugin, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'feedid' LIMIT 1 made by require_once, require_once, require_once, require_once, include, include, include, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, require_once, require_once, require_once, WP->init, wp_get_current_user, get_currentuserinfo, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'jetpack_id' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, Jetpack->init, Jetpack->plugin_upgrade, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, check_theme_switched, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, auth_redirect, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'ngg_init_check' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, nggLoader->start_plugin, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'feedid' LIMIT 1 made by require_once, require_once, require_once, require_once, include, include, include, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, require_once, require_once, require_once, WP->init, wp_get_current_user, get_currentuserinfo, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'jetpack_id' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, Jetpack->init, Jetpack->plugin_upgrade, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, check_theme_switched, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, auth_redirect, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'ngg_init_check' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, nggLoader->start_plugin, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'feedid' LIMIT 1 made by require_once, require_once, require_once, require_once, include, include, include, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, require_once, require_once, require_once, WP->init, wp_get_current_user, get_currentuserinfo, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'jetpack_id' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, Jetpack->init, Jetpack->plugin_upgrade, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, check_theme_switched, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, auth_redirect, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'ngg_init_check' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, nggLoader->start_plugin, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'feedid' LIMIT 1 made by require_once, require_once, require_once, require_once, include, include, include, get_option
+[16-Apr-2012 15:22:48] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, require_once, require_once, require_once, WP->init, wp_get_current_user, get_currentuserinfo, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[16-Apr-2012 15:22:49] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'jetpack_id' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, Jetpack->init, Jetpack->plugin_upgrade, get_option
+[16-Apr-2012 15:22:49] WordPress database error MySQL server has gone away for query SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, check_theme_switched, get_option
+[16-Apr-2012 15:22:49] WordPress database error MySQL server has gone away for query SELECT * FROM wp_users WHERE user_login = 'EAA' made by require_once, auth_redirect, wp_validate_auth_cookie, get_user_by, WP_User->get_data_by
+[02-Jul-2012 21:57:00] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 168000 bytes) in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 436
+[02-Jul-2012 21:57:01] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 168000 bytes) in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 436
+[02-Jul-2012 21:57:02] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 168000 bytes) in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 436
+[02-Jul-2012 21:57:02] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 168000 bytes) in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 436
+[02-Jul-2012 21:57:03] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 168000 bytes) in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 436
+[02-Jul-2012 21:57:04] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 168000 bytes) in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 436
+[02-Jul-2012 21:57:04] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 168000 bytes) in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 436
+[02-Jul-2012 21:57:05] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 168000 bytes) in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 436
+[02-Jul-2012 21:57:05] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 168000 bytes) in /home/eaaorg/public_html/wp-content/plugins/nextgen-gallery/lib/gd.thumbnail.inc.php on line 436
+[05-Mar-2013 05:33:41] WordPress database error Table 'eaaorg_eaa.wp_nc_coming_soon_free' doesn't exist for query SELECT * FROM wp_nc_coming_soon_free WHERE option_name = 'plugin_status' made by activate_plugin, include_once('/plugins/custom-coming-soon-page/index.php'), nccsf_load_modules, require_once('/plugins/custom-coming-soon-page/modules/functions/coming_soon_page.php'), nccsf_top
+[05-Mar-2013 05:33:42] WordPress database error Table 'eaaorg_eaa.wp_nc_coming_soon_free' doesn't exist for query SELECT * FROM wp_nc_coming_soon_free WHERE option_name = 'plugin_status' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/custom-coming-soon-page/index.php'), nccsf_load_modules, require_once('/plugins/custom-coming-soon-page/modules/functions/coming_soon_page.php'), nccsf_top

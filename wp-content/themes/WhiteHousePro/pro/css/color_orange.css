@@ -1,0 +1,59 @@
+#nav {
+	background: #F7931E url(../images/nav-orange.png) repeat-x 0 0;
+	border-top:1px solid #BB5022;
+}
+
+
+#nav .current_page_item a, #nav .current_page_item a:hover, #nav li a:active, #nav .current_page_ancestor{
+	background:#8A3413 url(../images/nav-orange.png) repeat-x 0 -70px;
+}
+ #nav li a:hover{
+	background:#8A3413 url(../images/nav-orange.png) repeat-x 0 -35px;
+}
+#nav li a:active{
+	color:#ddd;
+	background:#8A3413 url(../images/nav-orange.png) repeat-x 0 -70px;
+}
+
+
+#feature{
+	background: #000 url(../images/featurebg-orange.jpg) no-repeat 0 0;
+}
+
+#feature #feature-footer.number_nav #featurenav a{
+	border: 1px solid #7A2E14;
+	background: #8A3413;
+	color: #fff;
+}
+#feature #feature-footer.number_nav #featurenav a.activeSlide{
+	background: transparent;
+}
+.fcontent .fsub {color: #fff;}
+
+
+#maincontent #highlight {
+	
+	background: #380100 url(../images/highlightbg_orange.png) repeat-x 0 0;
+	border-top: 1px solid #820000;
+	border-bottom: 1px solid #000;
+
+}
+
+#welcome {
+	background:#820000 url(../images/welcomebg-orange.png) repeat-x top left;
+	color: #fff;
+	text-shadow: #222 0px 0px 1px;
+}
+#welcome .greeting {border-bottom: 1px solid #8A3413;}
+#welcome .welcometext {color:#fff;}
+
+.post-date em {
+	background: #eee;
+	color: #000;
+}
+.post-date em a{
+	color: #000;
+}
+
+
+a,.commentlist cite,.commentlist cite a, #sub_head #subnav .current_page_item a, #grandchildnav .current_page_item a, .headline h1 a:hover {color:#7A2E14;}

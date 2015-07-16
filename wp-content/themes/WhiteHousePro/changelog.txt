@@ -1,0 +1,66 @@
+****************************
+
+  WhiteHousePro Release Notes: 
+
+****************************
+
+Version 3.0.1
+- Core version 3.1.6
+
+Version 3.0.0
+- New feature modes (thumbs, names)
+- New carousel modes (NextGen Gallery, Post thumbs)
+- Graphical improvements
+- New footer
+- New widgetized areas 
+- New page/post options
+- New options (font-replacement, feature slider on blog, various others...)
+- New header icons
+- Feature/FBox on any page
+- Bug fixes
+
+Version 2.1.3
+- Image fixes
+- Sticky post
+
+Version 2.1.1
+- Wp 2.9 thumbnail fix
+- Optimizations
+
+Version 2.1.0
+- Support for WP 2.9’s thumbnail feature
+- Support for WhiteHousePro forum integration
+- Ads  - Added support for WP125, deprecated Ad-Minister
+- Search page fixes
+- More Localization Fixes
+- Bug fixes and optimizations
+
+Version 2.0.2
+- Drop-down improvements
+- Date format fix
+
+Version 2.0.0
+- Drop-down improvements
+- Date format fix
+- Complete Options Framework Rewrite + Design
+     - Note: upgrade won't erase options
+- Javascript compatibility
+- Localization (added text domain)
+- Drop-down navigation option
+- Hide search option
+- Partner link option
+- Meme Link Options
+- Category Items as Subnav on posts page
+- Debug mode
+- Feature page options
+     - additional transitions
+     - feature background css
+- No default sidebar option
+- Carousel Page Template
+- Highlight Page Template
+- Structure rewrite
+- Icon & Graphic improvements
+- More options (miscellaneous)
+
+
+** Start Changelog tracking **

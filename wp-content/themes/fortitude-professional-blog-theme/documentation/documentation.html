@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kriesi - Documentation</title>
+<style type="text/css">
+body { margin: 40px auto; font-family: Lucida Grande, Arial, Helvetica, sans-serif; font-size: 12px; color: #202020; line-height: 20px; width: 800px; }
+h1 { margin-top: 10px; }
+fieldset { margin: 30px 0; padding: 30px; }
+legend { font-size: 18px; padding: 0 10px; color: #202020; }
+pre, xmp {
+	border: solid 1px #ccc;
+	padding:15px; 
+	background: #efefef;
+	}
+a {color: #1386d7;}
+hr{
+	background: #FFF;
+	height: 1px;
+	border: 0px;
+	border-bottom: 1px dotted #c2c2c2;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+a img {padding: 3px; background: #eee; border: 1px solid #ccc; width: 95%; height: 95%; margin: 10px auto;}
+a img:hover {background: #afdeff;}
+ul.nobullets {
+	list-style: none;
+	}
+
+</style>
+</head>
+
+<body>
+<h1><center><img src="images/logo.png" width="300" height="75" /></center></h1>
+<p>Fortitude   is a premium theme for Wordpress 3.0. Its an affordable solution for people looking to start their multiple content website with ease. This theme comes fully equipped with up to date features seen across many of todays top industry standard wordpress based sites. Features include integrated Related Posts, Popular Posts, JQuery Enhacements, Shortcodes, custom widgets and many more.</p>
+<fieldset>
+  <legend>1. Pre Installation and Setup Steps</legend>
+<p>You need a working verion of Wordpress 3.0 and above.</p>
+
+<p>I'll be making lots of references to the Worpdress admin panel in this documentation. If you're totally new to Wordpress, take a few minutes to familiarize yourself with how the admin panel is laid out so you won't be lost when I instruct you to open up "Appearance > Widgets" or something like that.</p>
+<p>Also, its higly recommended that you familiarize with <a href="http://codex.wordpress.org/Custom_Post_Types">Wordpress 3.0 Custom Post Types</a>. This is the key to using this the main slider and portfolio sections.</p>
+<p><strong>Installing the Theme </strong></p>
+<p>You need to upload the theme files to your Wordpress installation's <strong>wp-content/themes</strong>/ folder. Then go to your Wordpress administration panel and activate the Airborne theme from the Appearance &gt; Themes pane.</p>
+<p><strong>DO NOT install it like wp-conten/themes/fortitude-wp/fortitude-wp</strong>/...</p>
+<p><strong>DO install it like wp-content/themes/fortitude-wp.</strong><br />
+</p>
+</fieldset>
+<fieldset>
+<legend>2. Fortitude Theme Settings</legend>
+<p>Upon activation, the Wordpress Admin page will automatically open Airborne Theme Settings Page. you can select various options from 3 different headings:</p>
+<ul>
+<li><strong>Fortitude Settings</strong>
+  <ul>
+  <li>Header Settings
+    <ul>
+      <li>Custom Logo</li>
+    </ul>
+  </li>
+  <li>Styling Settings
+    <ul>
+      <li>Background Selection</li>
+      <li>Cufon Font Selections  </li>
+    </ul>
+  </li>
+  <li>Blog Settings
+    <ul>
+      <li>Category Selection</li>
+      <li>Breadcrumbs</li>
+      <li>Featured Image</li>
+      <li>Search Form</li>
+      <li>Tags or Cats</li>
+      </ul>
+  </li>
+  <li>Single Post/Page Settings
+    <ul>
+      <li>Featured Image</li>
+      <li>Share Links</li>
+      <li>Author information</li>
+      <li>Related Posts</li>
+      </ul>
+  </li>
+  <li>Footer Settings
+    <ul>
+      <li>Footer Sidebar</li>
+      <li>Copyright Text</li>
+      <li>Google Analytics</li>
+      </ul>
+  </li>
+  </ul>
+</li>
+</ul>
+</fieldset>
+<fieldset>
+<legend>3. Images for Posts, Thumbnails and widgets</legend>
+<p>Don't be scared. Unlike any other theme out there, you don't have to upload different images, copy and paste image urls to custom fields. Fortitude theme uses the latest <strong>WP 3.0 Post Thumbnail feature</strong>. Well all you have to do is click on "<strong>Use as thumbnail</strong>" when you upload an image to a post or a page. You need to select a post thumbnail image for every post you make.</p>
+<p><img src="images/useasthumbnail.jpg" width="722" height="333" /></p>
+</fieldset>
+<fieldset>
+<legend>4. Wordpress MEDIA Settings</legend>
+<p>I really advise that you apply the below settings to your Wordpress so that your blog experience is easier. </p>
+<p><strong>Thumbnails</strong> should be <strong>150 x 150 </strong>with cropping enabled so that you get perfect squares for widgets and Related Posts.</p>
+<p><strong>Large Size</strong> should be <strong>680 x 9999</strong> so that when you place a &quot;Large&quot; sized image inside a post, it fits perfectly like the demo site.</p>
+<p><img src="images/media.jpg" width="722" height="278" /></p>
+<p>After you apply these settings, you can regenerate your thumbnails using the <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">Regenerate Thumbnails</a> plugin.</p>
+</fieldset>
+<fieldset>
+<legend>5. Javascript Files</legend>
+<p>This theme imports several Javascript files. All located in the "js" folder.</p>
+<ul>
+	<li><a href="http://jquery.com/">jquery-1.4.4.min.js</a> - Main Jquery File</li>
+	<li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/">superfish.js</a> - Dropdown menus</li>
+	<li><a href="http://www.mattvarone.com/web-design/uitotop-jquery-plugin/">jquery.ui.totop.js</a> - ToTop Plugin, creating the go to top button on the bottom right</li>
+	<li><a href="http://nivo.dev7studios.com/">jquery.nivo.slider.pack.js</a> - Nivo Slider plugin</li>
+	<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">jquery.prettyPhoto.js</a> - Pretty Photo plugin</li>
+	<li><a href="http://cufon.shoqolate.com/generate/">cufon-yui.js</a> - Cufon Font Plugin</li>
+	<li>fortitude.js - Theme custom JS file containg all functions</li>
+</ul>
+
+</p>
+</fieldset>
+<fieldset>
+<legend>6. Shortcodes</legend>
+<p>A shortcode is a WordPress-specific code that lets you do nifty things with very little effort. Shortcodes can embed files or create objects that would normally require lots of complicated, ugly code in just one line. Shortcode = shortcut. You can use these shortcodes inside your posts, pages and in your sidebar widgets.</p>
+
+<p>Airborne has couple of shortcodes that are custom made. You can see them here</p>
+<ul>
+	<li>http://kriesi.turkhitbox.com/basic-shortcodes</li>
+	<li>http://kriesi.turkhitbox.com/advanced-shortcodes</li>
+	<li>http://kriesi.turkhitbox.com/full-width</li>
+	<li>http://kriesi.turkhitbox.com/list-shortcodes </li>
+</ul>
+<p>Column Shortcodes:</p>
+<p><img src="images/columnshorcodes.jpg" width="730" height="400" /></p>
+</fieldset>
+<fieldset>
+<legend>7. Wordpress 3 Menu Settings</legend>
+<p>There are two predifined Wordpress 3.0 Menu areas inside Airborne Theme. One is for the header menu, the other one is for the footer page list.</p>
+<p>Create a Menu, Save it and then add it to Theme Locations on the left. And click save again.</p>
+<p><img src="images/menu.jpg" width="722" height="373" /></p>
+
+</fieldset>
+<fieldset>
+<legend>8. Adding Posts to Main Slider</legend>
+<p>By default, there is custom post type called "Slider" created by the theme. Posts you add to this custom post type will be displayed on frontpage.</p>
+<p><img src="images/main-slider.jpg" width="722" height="450" /></p>
+<p>The front page images are <strong>1020 x 400</strong> in size. You don't have to resize your images before uploading. The theme automatically creates images of size 960x400. Make sure your uploaded images are bigger than 1020 x400.. Once you upload an image, select is as the featured image for the post.</p>
+<p><img src="images/main-slider-2.jpg" width="722" height="300" /></p>
+
+</fieldset>
+<fieldset>
+<legend>9. Adding Custom Post Types</legend>
+<p>You can create custom post types of your own from the Theme Settings. Add names of your custom post types seperated by commas like below: </p>
+
+<p><img src="images/customposts.jpg" width="722" height="250" /></p>
+<p>Remember to refresh the page to see the changes. You will see that for every custom post type you create, Wordpress will generate a menu on the left.</p>
+</fieldset>
+<fieldset>
+<legend>10. Portfolio Pages</legend>
+<p>As you can see from the demo page, The gallery type pages uses Custom Post Types. These are very easy to use. </p>
+<ol>
+  <li>When you create a Wordpress Page, Select &quot;Portfolio Page&quot; Template from the Page Templates.</li>
+  <li>Then enter which custom post type you would like to display to Gallery meta box.</li>
+  <li>The Page will display all posts inside that custom post type. The images are the ones selected a featured images of that post.</li>
+  </ol>
+<p><img src="images/galleries.jpg" width="722" height="300" /></p>
+<p><strong>Showcase &amp; Portfolio Pages Item Descriptions:</strong></p>
+<p>The descriptions you see on <a href="http://kriesi.turkhitbox.com/portfolio-3-columns">http://kriesi.turkhitbox.com/portfolio-3-columns</a> are from <strong>Post excerpts</strong>. When you click on &quot;Read More&quot; button, you get to the individual item page where you can see the <strong>post content</strong>.</p>
+</fieldset>
+<fieldset>
+<legend>8. Conclusion</legend>
+<p>This completes the formal documenation on how to set this theme up. From here, the possibilities are pretty much unlimited for what you can accomplish with this theme. </p>
+
+<p>You can reach me at <a href="mailto:anteksiler@gmail.com">anteksiler@gmail.com</a>. I would love to make modifications for your needs for a price between $35 and $135 depending on how hard the modifications are.</p>
+</fieldset>
+</body>
+</html>

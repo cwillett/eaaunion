@@ -1,0 +1,59 @@
+#nav {
+	background: #333 url(../images/nav-green.png) repeat-x 0 0;
+	border-top:1px solid #0D733B;
+}
+
+
+#nav .current_page_item a, #nav .current_page_item a:hover, #nav li a:active, #nav .current_page_ancestor{
+	background:#03230E url(../images/nav-green.png) repeat-x 0 -70px;
+}
+ #nav li a:hover{
+	background:#03230E url(../images/nav-green.png) repeat-x 0 -35px;
+}
+#nav li a:active{
+	color:#ddd;
+	background:#03230E url(../images/nav-green.png) repeat-x 0 -70px;
+}
+
+
+#feature{
+	background: #000 url(../images/featurebg-green.jpg) no-repeat 0 0;
+}
+
+#feature #feature-footer.number_nav #featurenav a{
+	border: 1px solid #03230E;
+	background: #03230E;
+	color: #fff;
+}
+#feature #feature-footer.number_nav #featurenav a.activeSlide{
+	background: transparent;
+}
+.fcontent .fsub {color: #fff;}
+
+
+#maincontent #highlight {
+	
+	background: #001B01 url(../images/highlightbg_green.png) repeat-x 0 0;
+	border-top: 1px solid #006837;
+	border-bottom: 1px solid #000;
+
+}
+
+#welcome {
+	background:#006837 url(../images/welcomebg-green.png) repeat-x top left;
+	color: #fff;
+	text-shadow: #006837 0px 0px 1px;
+}
+#welcome .greeting {border-bottom: 1px solid #1E9140;}
+#welcome .welcometext {color:#fff;}
+
+.post-date em {
+	background: #eee;
+	color: #000;
+}
+.post-date em a{
+	color: #006837;
+}
+
+
+a,.commentlist cite,.commentlist cite a, #sub_head #subnav .current_page_item a, #grandchildnav .current_page_item a, .headline h1 a:hover{color:#006837;}

@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=1100px" />
+<title>Company Name</title>
+
+<link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/supersubs.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon/avenir.js"></script>
+<script>
+jQuery(document).ready(function() {
+	$('#navigation ul.menu').supersubs({ 
+			minWidth:    15,
+			maxWidth:    30,
+			extraWidth:  1     
+		}).superfish({ hoverClass: "sfHover", speed: 'slow', dropShadows: false, delay: 0, animation: {height:'show'}});
+	Cufon.replace('#right h2', {
+		hover: true,
+		textShadow: '#FFF 2px 2px'
+	});
+	Cufon.replace('#intro h2', {
+		hover: true,
+		textShadow: '#111 2px 2px'
+	});
+	Cufon.replace('#left h3', {
+		hover: true
+	});
+	Cufon.replace('#footer h2', {
+		textShadow: '#222 -1px -1px'
+	});
+	if(!jQuery.browser.msie){
+		hoverbutton();
+		jQuery(".social a").stop().fadeTo("medium", 0.7); 
+		hoverbuttonReverse();
+	} 
+	jQuery(".social a").simpletooltip();
+});
+function hoverbutton(){
+
+jQuery('#searchsubmit, #shareicons img').hover(function(){
+	jQuery(this).stop().fadeTo("medium", 0.6);
+	},function(){
+	jQuery(this).stop().fadeTo("slow", 1.0); 
+	});	
+}
+function hoverbuttonReverse(){
+	jQuery(".social a").hover(function(){
+		jQuery(this).stop().fadeTo("fast", 1);
+		},function(){
+		jQuery(this).stop().fadeTo("medium", 0.7); 
+		});	
+}
+(function($){ $.fn.simpletooltip = function(){
+	return this.each(function() {
+		var text = $(this).attr("title");
+		$(this).attr("title", "");
+		if(text != undefined) {
+			$(this).hover(function(e){
+				var tipX = e.pageX + 12;
+				var tipY = e.pageY + 12;
+				$(this).attr("title", ""); 
+				$("body").append("<div id='simpleTooltip' style='position:absolute; z-index: 100; display: none;'>" + text + "</div>");
+				if($.browser.msie) var tipWidth = $("#simpleTooltip").outerWidth(true)
+				else var tipWidth = $("#simpleTooltip").width()
+				$("#simpleTooltip").width(tipWidth);
+				$("#simpleTooltip").css("left", tipX).css("top", tipY).fadeIn("medium");
+			}, function(){
+				$("#simpleTooltip").remove();
+				$(this).attr("title", text);
+			});
+			$(this).mousemove(function(e){
+				var tipX = e.pageX - 0;
+				var tipY = e.pageY - 40;
+				var tipWidth = $("#simpleTooltip").outerWidth(true);
+				var tipHeight = $("#simpleTooltip").outerHeight(true);
+				if(tipX + tipWidth > $(window).scrollLeft() + $(window).width()) tipX = e.pageX - tipWidth;
+				if($(window).height()+$(window).scrollTop() < tipY + tipHeight) tipY = e.pageY - tipHeight;
+				$("#simpleTooltip").css("left", tipX).css("top", tipY).fadeIn("medium");
+			});
+		}
+	});
+}})(jQuery);
+</script>
+
+</head>
+<body>
+<div id="headerwrapper">
+	<div id="header">
+    	<div id="logo"><img src="images/logo.png" alt="" width="300" height="76" /></div>
+        <div id="navigation">
+        	<ul class="menu">
+            	<li><a href="#">Menu Item 1</a>
+                	<ul class="menu">
+                        <li><a href="#">A Longggggg Menu Item</a></li>
+                        <li><a href="#">Menu Item</a></li>
+                        <li><a href="#">Menu Item</a>
+                        	<ul class="menu">
+                                <li><a href="#">A Longggggg Menu Item</a></li>
+                                <li><a href="#">Menu Item</a></li>
+                                <li><a href="#">Menu Item</a></li>
+                                <li><a href="#">Menu Item</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Menu Item</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Menu Item 2</a></li>
+                <li><a href="#">Menu Item 3</a></li>
+                <li><a href="#">Menu Item 4</a>
+                	<ul class="menu">
+                        <li><a href="#">A Longggggg Menu Item</a></li>
+                        <li><a href="#">Menu Item</a></li>
+                        <li><a href="#">Menu Item</a></li>
+                        <li><a href="#">Menu Item</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+	</div>
+</div>
+<div id="introwrapper">
+	<div id="intro">
+    	<h2>Some editors are failed writers, but so are most writers</h2>
+    <div id="socialsearch">
+        	<div class="social">
+            <ul>
+            	<li><a href="#" title="Delicious"><img src="images/icons/delicious-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="Skype"><img src="images/icons/skype-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="RSS"><img src="images/icons/rss-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="Stumbleupon"><img src="images/icons/stumbleupon-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="MySpace"><img src="images/icons/myspace-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="Linkedin"><img src="images/icons/linkedin-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="Twitter"><img src="images/icons/twitter-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="Yahoo"><img src="images/icons/yahoo-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="Flickr"><img src="images/icons/flickr-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="Facebook"><img src="images/icons/facebook-mini.png" alt="" width="16" height="16" /></a></li>
+                <li><a href="#" title="Digg"><img src="images/icons/digg-mini.png" alt="" width="16" height="16" /></a></li>
+            </ul>
+  			</div>
+            <div class="search">
+            <form method="get" id="searchform" action="#">
+                <input name="s" type="text" id="s" value="" size="17" alt="search" />
+                <input type="image" src="images/searchicon.png" id="searchsubmit" value="Search" />
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contentwrapper">
+	<div id="content">
+    	<div id="left">
+        	<div class="post">
+            	<div class="postimage">
+                	<img src="photos/stairs-01.jpg" alt="" width="720" height="320" />    
+                    <div class="posttitle">
+   	    				<ul>
+                        	<li><a href="#">3 Comments</a></li>
+                            <li><a href="#">13.09.2010</a></li>
+                            <li><a href="#">Admin</a></li>
+                        </ul>
+                    	<h3><a href="#">Post Title Post Title Post Title Post Title Post Title</a></h3>
+                        <span><a href="#">Category 1</a>, <a href="#">Category 1</a>, <a href="#">Category 1</a></span>
+                    </div>
+                </div>
+                <div class="posttext">
+                	<p><strong>Pellentesque habitant morbi tristique</strong> senectus et  netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero  sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit asd amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="http://marketplace.themedemo.net/free-resources/50-creative-poses-for-you-subject/#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget  ligula molestie gravida. Curabitur massa. Donec eleifend, libero at  sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit  amet quam. Vivamus pretium ornare est.</p></blockquote>
+<p><strong>Pellentesque habitant morbi tristique</strong> senectus et  netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero  sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="http://marketplace.themedemo.net/free-resources/50-creative-poses-for-you-subject/#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+<p><em>This is emphasised text</em></p>
+<p><strong>This is strong text</strong></p>
+<p><acronym title="This is an acronym - &lt;acronym&gt;&lt;/acronym&gt;">This is an acronym</acronym></p>
+<p><del>This is deleted text</del></p>
+<p><a href="#">This is a link</a></p>
+<h3>Numbered List</h3>
+
+<ol>
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+<li>Aliquam tincidunt mauris eu risus.
+<ol>
+<li>Aliquam tincidunt mauris eu risus.</li>
+<li>Aliquam tincidunt mauris eu risus.</li>
+<li>Aliquam tincidunt mauris eu risus.</li>
+</ol>
+</li>
+<li>Lorem ipsum dolor sit amet, consectetuer.</li>
+</ol>
+<h3>Blockquote Example</h3>
+
+<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget  ligula molestie gravida. Curabitur massa. Donec eleifend, libero at  sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit  amet quam. Vivamus pretium ornare est.</p></blockquote>
+<h3>Pull Quote Examples</h3>
+<p><strong>Pellentesque habitant morbi tristique</strong> senectus et  netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero  sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="http://marketplace.themedemo.net/free-resources/50-creative-poses-for-you-subject/#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.<br />
+<blockquote class="pullquote_right"><p>Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, ped</p></blockquote><br />
+<strong>Pellentesque habitant morbi tristique</strong> senectus et  netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero  sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="http://marketplace.themedemo.net/free-resources/50-creative-poses-for-you-subject/#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.<br />
+
+<blockquote class="pullquote_left"><p>Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pe</p></blockquote><br />
+<strong>Pellentesque habitant morbi tristique</strong> senectus et  netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero  sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="http://marketplace.themedemo.net/free-resources/50-creative-poses-for-you-subject/#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+<h3>Unnumbered List Example</h3>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+
+<li>Aliquam tincidunt mauris eu risus.
+<ul>
+<li>Aliquam tincidunt mauris eu risus</li>
+<li>Aliquam tincidunt mauris eu risus</li>
+<li>Aliquam tincidunt mauris eu risus</li>
+</ul>
+</li>
+<li>Lorem ipsum dolor sit amet, consectetuer.</li>
+</ul>
+<a class="more-link">Read More<img src="images/arrow.png" alt="" width="16" height="16" /></a>
+                </div>
+            </div>
+            <div id="shareicons">
+            	<h3>Share</h3>
+                <ul>
+                    
+                    <li><a href="http://del.icio.us/"><img src="images/icons/delicious.png" width="32" height="32" /></a></li>
+                    <li><a href="http://digg.com/"><img src="images/icons/digg.png" width="32" height="32" /></a></li>
+                    <li><a href="mailto:yourmail@you.com"><img src="images/icons/email.png" width="32" height="32" /></a></li>
+                    <li><a href="http://facebook.com/"><img src="images/icons/facebook.png" width="32" height="32" /></a></li>
+                    <li><a href="http://www.google.com/"><img src="images/icons/google.png" width="32" height="32" /></a></li>
+                    <li><a href="http://reporter.nl.msn.com/"><img src="images/icons/msn.png" width="32" height="32" /></a></li>
+                    <li><a href="http://reddit.com/"><img src="images/icons/reddit.png" width="32" height="32" /></a></li>
+                    <li><a href="http://stumbleupon.com/"><img src="images/icons/stumbleupon.png" width="32" height="32" /></a></li>
+                    <li><a href="http://technorati.com/"><img src="images/icons/technorati.png" width="32" height="32" /></a></li>
+                    <li><a href="http://www.tumblr.com/"><img src="images/icons/tumblr.png" width="32" height="32" /></a></li>
+                    <li><a href="http://twitter.com/"><img src="images/icons/twitter.png" width="32" height="32" /></a></li>
+                </ul>
+            </div>
+            <div class="popularposts">
+            <h3>Popular Posts</h3>
+			<ul>
+				<li>
+                    <a href="#" rel="bookmark" title="10 Reasons to Buy Airborne"><img src="photos/150x150.jpg" width="150" height="150"></a>
+                    <p>
+                        <a href="#" rel="bookmark">10 Reasons to Buy Airborne</a>
+                        <br />
+                        17 Oct 2010
+                    </p>
+				</li>
+                <li>
+                    <a href="#" rel="bookmark" title="10 Reasons to Buy Airborne"><img src="photos/150x150.jpg" width="150" height="150"></a>
+                    <p>
+                        <a href="#" rel="bookmark">10 Reasons to Buy Airborne</a>
+                        <br />
+                        17 Oct 2010
+                    </p>
+				</li>
+                <li>
+                    <a href="#" rel="bookmark" title="10 Reasons to Buy Airborne"><img src="photos/150x150.jpg" width="150" height="150"></a>
+                    <p>
+                        <a href="#" rel="bookmark">10 Reasons to Buy Airborne</a>
+                        <br />
+                        17 Oct 2010
+                    </p>
+				</li>
+            </ul>
+            </div>
+        	<div class="relatedposts">
+            <h3>Related Posts</h3>
+			<ul>
+				<li>
+                    <a href="#" rel="bookmark" title="10 Reasons to Buy Airborne"><img src="photos/150x150.jpg" width="150" height="150"></a>
+                    <p>
+                        <a href="#" rel="bookmark">10 Reasons to Buy Airborne</a>
+                        <br />
+                        17 Oct 2010
+                    </p>
+				</li>
+                <li>
+                    <a href="#" rel="bookmark" title="10 Reasons to Buy Airborne"><img src="photos/150x150.jpg" width="150" height="150"></a>
+                    <p>
+                        <a href="#" rel="bookmark">10 Reasons to Buy Airborne</a>
+                        <br />
+                        17 Oct 2010
+                    </p>
+				</li>
+                <li>
+                    <a href="#" rel="bookmark" title="10 Reasons to Buy Airborne"><img src="photos/150x150.jpg" width="150" height="150"></a>
+                    <p>
+                        <a href="#" rel="bookmark">10 Reasons to Buy Airborne</a>
+                        <br />
+                        17 Oct 2010
+                    </p>
+				</li>
+            </ul>
+        </div>
+            <div id="commentsarea">
+                <h3>5 Comments</h3>
+                <ol class="commentlist">
+                    <li class="comment even thread-even depth-1" id="li-comment-7">
+                        <div id="comment-7" class="fullcomment">
+                            <div class="comment-author vcard">
+                                <img alt='' src='http://1.gravatar.com/avatar/978faa7db498a1a391ba1329b8a6c29e?s=70&amp;d=http%3A%2F%2F360forged.turkhitbox.com%2Fwp-content%2Fthemes%2F360forged%2Fimages%2Fgravatar.jpg%3Fs%3D70&amp;r=G' class='avatar avatar-70 photo' height='70' width='70' />   
+                            </div>
+                            <div class="comment-text">
+                                <div class="author">shabi</div>           
+                                <p>Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc.</p>
+                                <div class="reply">
+                                <a rel='nofollow' class='comment-reply-link' href='/category-2/360-forged-demo-site-content-included.html?replytocom=7#respond' onclick='return addComment.moveForm("comment-7", "7", "respond", "90")'>reply</a></div><div class="date">Sep 19, 2010</div>
+                            </div>
+                        </div>
+                    <ul class='children'>
+                        <li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="li-comment-9">
+                            <div id="comment-9" class="fullcomment">
+                                <div class="comment-author vcard">
+                                    <img alt='' src='http://1.gravatar.com/avatar/1dadee42172df5042f0c4643f9fbbe6f?s=70&amp;d=http%3A%2F%2F360forged.turkhitbox.com%2Fwp-content%2Fthemes%2F360forged%2Fimages%2Fgravatar.jpg%3Fs%3D70&amp;r=G' class='avatar avatar-70 photo' height='70' width='70' />
+                                </div>
+                            
+                                <div class="comment-text">
+                                    <div class="author">admin</div>
+                                    <p>Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc.</p>
+                                    <div class="reply">
+                                    <a rel='nofollow' class='comment-reply-link' href='/category-2/360-forged-demo-site-content-included.html?replytocom=9#respond' onclick='return addComment.moveForm("comment-9", "9", "respond", "90")'>reply</a></div><div class="date">Sep 19, 2010</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="li-comment-9">
+                        <div id="comment-9" class="fullcomment">
+                            <div class="comment-author vcard">
+                                <img alt='' src='http://1.gravatar.com/avatar/1dadee42172df5042f0c4643f9fbbe6f?s=70&amp;d=http%3A%2F%2F360forged.turkhitbox.com%2Fwp-content%2Fthemes%2F360forged%2Fimages%2Fgravatar.jpg%3Fs%3D70&amp;r=G' class='avatar avatar-70 photo' height='70' width='70' />
+                            </div>
+                        
+                            <div class="comment-text">
+                                <div class="author">admin</div>
+                                <p>Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc.</p>
+                                <div class="reply">
+                                <a rel='nofollow' class='comment-reply-link' href='/category-2/360-forged-demo-site-content-included.html?replytocom=9#respond' onclick='return addComment.moveForm("comment-9", "9", "respond", "90")'>reply</a></div><div class="date">Sep 19, 2010</div>
+                            </div>
+                        </div>
+                    </li>
+                    </ul>
+                    </li> 
+                </ol>
+            </div>
+            <div id="respond">
+                <h3>Leave a Reply</h3>
+                    <div class="cancel-comment-reply"><a rel="nofollow" id="cancel-comment-reply-link" href="#respond" style="display:none;">Click here to cancel reply.</a></div>         
+                    <div class="commentreply">
+                    <form action="http://360forged.turkhitbox.com/wp-comments-post.php" method="post" id="commentform">    
+                        <p><label for="author"><small>Name (*)</small></label><br />
+                        <input type="text" class="name" name="author" id="author" value="turkhitbox" size="22" tabindex="1" /></p>
+                                
+                        <p><label for="email"><small>Email (will not be published) (*)</small></label><br />
+                        <input type="text" class="email" name="email" id="email" value="admin@turbofsi.net" size="22" tabindex="2" /></p>
+                                
+                        <p><label for="url"><small>Website</small></label><br />
+                        <input type="text" class="web" name="url" id="url" value="http://www.turbofsi.net" size="22" tabindex="3" /></p>
+                   
+                        <div><textarea class="s" name="comment" id="comment" cols="70" rows="10" tabindex="4"></textarea></div>
+                    
+                        <div><input type="submit" name="submit" id="submit" value="Submit Comment" class="button" tabindex="5" /><input type='hidden' name='comment_post_ID' value='90' id='comment_post_ID' />
+                        <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                        </div>    
+                    </form>
+                    </div>
+        	</div>
+        </div>
+        <div id="right">
+        	<ul>
+            	<li class="widget">
+                	<h2>Archives</h2>		
+                    <ul>
+                        <li><a href='http://blackops.turkhitbox.com/2010/08' title='August 2010'>August 2010</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2009/09' title='September 2009'>September 2009</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2009/08' title='August 2009'>August 2009</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2009/07' title='July 2009'>July 2009</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2008/09' title='September 2008'>September 2008</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2008/08' title='August 2008'>August 2008</a></li>
+
+                    </ul>
+                </li>
+                <li class="widget">
+                	<h2>Archives</h2>		
+                    <ul>
+                        <li><a href='http://blackops.turkhitbox.com/2010/08' title='August 2010'>August 2010</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2009/09' title='September 2009'>September 2009</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2009/08' title='August 2009'>August 2009</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2009/07' title='July 2009'>July 2009</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2008/09' title='September 2008'>September 2008</a></li>
+                        <li><a href='http://blackops.turkhitbox.com/2008/08' title='August 2008'>August 2008</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="footerwrapper">
+	<div id="footer">
+    <ul>
+        <li>
+            <h2>About Us</h2>
+            <div class="textwidget">The footer is widgetized as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+            Curabitur quam augue, vehicula quis, tincidunt vel, varius vitae, nulla. Sed convallis orci. </div>
+        </li>
+        <li>
+            <h2>Archives</h2>
+            <ul>
+                <li><a href='http://techblog.turkhitbox.com/2010/08/' title='August 2010'>August 2010</a></li>
+                <li><a href='http://techblog.turkhitbox.com/2010/07/' title='July 2010'>July 2010</a></li>
+                <li><a href='http://techblog.turkhitbox.com/2009/06/' title='June 2009'>June 2009</a></li>
+                <li><a href='http://techblog.turkhitbox.com/2009/03/' title='March 2009'>March 2009</a></li>
+                <li><a href='http://techblog.turkhitbox.com/2008/09/' title='September 2008'>September 2008</a></li>
+                <li><a href='http://techblog.turkhitbox.com/2010/08/' title='August 2010'>August 2010</a></li>
+                <li><a href='http://techblog.turkhitbox.com/2010/07/' title='July 2010'>July 2010</a></li>
+                <li><a href='http://techblog.turkhitbox.com/2009/06/' title='June 2009'>June 2009</a></li>
+                <li><a href='http://techblog.turkhitbox.com/2009/03/' title='March 2009'>March 2009</a></li>
+                <li><a href='http://techblog.turkhitbox.com/2008/09/' title='September 2008'>September 2008</a></li>
+            </ul>	
+        </li>
+        <li><h2>Contact Us</h2>
+            <form id="footerContact" method="post">
+                <p><input type="text" name="Name" value="" class="textfield" size="22" tabindex="3" /><label class="textfield_label" for="contactNameWidget">Name *</label></p>
+    
+                <p><input type="text" name="Email" value="" class="textfield" size="22" tabindex="4" /><label class="textfield_label" for="emailWidget">Email *</label></p>
+    
+                <p><textarea name="textarea" rows="20" cols="30" tabindex="5" class="textarea"></textarea></p>
+    
+               
+                <p><input name="submit" class="footersubmit" id="footerbutton" tabindex="6" value="Submit" type="submit" /></p>
+            </form>
+        </li>
+    </ul>
+    </div>
+</div>
+</body>
+</html>
