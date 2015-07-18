@@ -111,7 +111,6 @@ form, fieldset {
 .wp-caption{max-width:100% !important;}
 #header{padding:0 10px 0;}
 .avada-row{
-	margin:0 auto;
 	max-width:940px;
 }
 .avada-row:after{
