@@ -1,0 +1,14 @@
+-�U<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:5401;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2014-12-12 13:43:21";s:13:"post_date_gmt";s:19:"2014-12-12 21:43:21";s:12:"post_content";s:1995:"<h2><strong>Welcome to our Events Page!</strong></h2>
+<span style="color: #000000;">Engineers &amp; Architects Association is constantly finding ways to be involved in our local communities. Whether it is through volunteer work, charitable donations, or lending a personal helping hand, EAA wants their community to know we care.</span>
+<h3><strong>Click on any of our Outreach Projects to learn more:</strong></h3>
+<h2 style="padding-left: 60px;"><span style="color: #0000ff;"><a style="color: #0000ff;" href="http://eaaunion.org/dolores-mission" target="_blank">Dolores Mission</a></span></h2>
+<h2 style="padding-left: 60px;"><span style="color: #0000ff;"><a style="color: #0000ff;" title="Softball Tournament Sign Ups" href="http://eaaunion.org/events-6/softball-tournament-sign-ups" target="_blank">Softball Tournament Sign-Up</a> </span></h2>
+<h2 style="padding-left: 60px;"><span style="color: #0000ff;"><a style="color: #0000ff;" title="Local Wide Picnic" href="http://eaaunion.org/events-6/local-wide-picnic" target="_blank">IBEW Local 11 Local Wide Picnic</a> </span></h2>
+<h2 style="padding-left: 60px;"><span style="color: #0000ff;"><a style="color: #0000ff;" title="Beanies &amp; Blankets" href="http://eaaunion.org/events-6/beanies-blankets" target="_blank">Beanies &amp; Blankets Drive</a></span></h2>
+<span style="color: #000000;">If you or someone you know takes interest in helping others, please feel free to fill out our volunteer opportunity form and our Communications Coordinator will personally contact you with more information.</span>
+
+[gravityform id="22" title="true" description="true"]
+
+[caption id="attachment_5681" align="aligncenter" width="819"]<a href="http://eaaunion.org/wp-content/uploads/2015/05/IMG_5946.jpg"><img class="wp-image-5681" src="http://eaaunion.org/wp-content/uploads/2015/05/IMG_5946.jpg" alt="IMG_5946" width="819" height="546" /></a> EAA hosted an Easter Hunt for the children of Harbor Interfaith Shelter.[/caption]
+
+&nbsp;";s:10:"post_title";s:6:"EVENTS";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:8:"events-6";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2015-07-02 10:45:03";s:17:"post_modified_gmt";s:19:"2015-07-02 17:45:03";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:33:"http://eaaunion.org/?page_id=5401";s:10:"menu_order";i:0;s:9:"post_type";s:4:"page";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}
